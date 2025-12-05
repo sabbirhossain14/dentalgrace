@@ -6,6 +6,7 @@ import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Services from './pages/services/Services';
 import PatientReviews from './pages/patientreviews/PatientReviews';
+import Faq from './pages/faq/Faq';
 import CommonLayout from './components/commoncomponents/commonlayout/CommonLayout';
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="services" element={<Services />} />
           <Route path="patientreviews" element={<PatientReviews />} />
+          <Route path="faq" element={<Faq />} />
         </Route>
     </Routes>
     </>
